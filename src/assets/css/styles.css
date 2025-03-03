@@ -118,7 +118,7 @@ h1, h2, h3, .card-title {
 .card-title, h1, h2, h3 {
     color: #35424a;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-bottom: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -127,6 +127,8 @@ h1, h2, h3, .card-title {
     font-family: 'Montserrat', sans-serif;
     color: #35424a;
     margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 700;
 }
 
 .card img {
@@ -175,4 +177,26 @@ p {
 .container, main {
     text-align: center;
     /*padding: 1rem;*/
+}
+
+/* Styles personnalisés pour les cartes */
+.card-custom {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    margin-bottom: 30px; /* Ajoute de l'espace entre les cartes */
+}
+
+.card-custom:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 1.25rem;
 }

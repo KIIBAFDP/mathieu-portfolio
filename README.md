@@ -1,10 +1,10 @@
-# Mathieu's Portfolio
+# Portfolio de Mathieu
 
-## Overview
-This is a personal portfolio project for Mathieu, a 21-year-old student studying BTS SIO. The portfolio showcases his skills, projects, and background, providing a comprehensive view of his work and studies.
+## Aperçu
+Ceci est un projet de portfolio personnel pour Mathieu, un étudiant de 21 ans en BTS SIO. Le portfolio présente ses compétences, ses projets et son parcours, offrant une vue d'ensemble de son travail et de ses études.
 
-## Project Structure
-The project is organized as follows:
+## Structure du projet
+Le projet est organisé comme suit :
 
 ```
 mathieu-portfolio
@@ -24,32 +24,32 @@ mathieu-portfolio
 └── README.md
 ```
 
-## Features
-- **Responsive Design**: The portfolio is designed to be responsive, ensuring a great user experience on both desktop and mobile devices.
-- **Interactive Elements**: JavaScript is used to add interactivity, enhancing user engagement.
-- **Project Showcase**: A dedicated section to display projects with descriptions and links.
+## Fonctionnalités
+- **Design Responsive**: Le portfolio est conçu pour être responsive, garantissant une excellente expérience utilisateur sur les appareils de bureau et mobiles.
+- **Éléments interactifs**: JavaScript est utilisé pour ajouter de l'interactivité, améliorant l'engagement des utilisateurs.
+- **Présentation des projets**: Une section dédiée pour afficher les projets avec des descriptions et des liens.
 
-## Setup Instructions
-1. Clone the repository:
+## Instructions d'installation
+1. Clonez le dépôt :
    ```
    git clone <repository-url>
    ```
-2. Navigate to the project directory:
+2. Accédez au répertoire du projet :
    ```
    cd mathieu-portfolio
    ```
-3. Open the `index.html` file in a web browser to view the portfolio.
+3. Ouvrez le fichier `index.html` dans un navigateur web pour voir le portfolio.
 
-## Technologies Used
+## Technologies Utilisées
 - HTML
 - CSS
 - JavaScript
 
-## Author
+## Auteur
 Mathieu  
 Age: 21  
-Born on: April 10, 2003  
-Studying: BTS SIO
+Né le: 10 avril 2003  
+Étudiant en: BTS SIO
 
-## License
-This project is licensed under the MIT License.
+## Licence
+Ce projet est sous licence MIT.
