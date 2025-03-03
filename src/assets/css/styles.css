@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar.fixed-top {
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+body {
+    padding-top: 0 !important;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    background-size: 200% 200%;
+    z-index: -1;
+    animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    height: 10%;
+}
+
+h1, h2, h3, .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #35424a;
+    margin-bottom: 1rem;
+}
+
+.project {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title, h1, h2, h3 {
+    color: #35424a;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #35424a;
+    margin-bottom: 1rem;
+}
+
+.card img {
+    border-radius: 50px;
+}
+
+.navbar-custom {
+    background-color: #808080 !important;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar .container {
+    padding: 0;
+    margin: 0;
+}
+
+main.container {
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 200px; /* Augmente l'espace sous le contenu */
+    text-align: center;
+}
+
+/* Ajoute un espace sous le dernier élément du container */
+main.container > *:last-child {
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.container, main {
+    text-align: center;
+    /*padding: 1rem;*/
+}
