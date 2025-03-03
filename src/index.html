@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="assets/images/photo-mathieu.jpeg " type="image/x-icon">
 </head>
-<body>
+<body class="slide-in-left">
     <!-- Insertion du header -->
     <div id="header"></div>
 
     <!-- Contenu Principal -->
-    <main class="container">
+    <main class="container fade-in-on-scroll">
         <!-- Section About en jumbotron -->
-        <section id="about" class="mb-5">
+        <section id="about" class="mb-5 about-section fade-in-on-scroll">
             <div class="jumbotron bg-white shadow-sm">
                 <h2 class="display-4 text-center">À propos de moi</h2>
-                <p class="lead text-center">
+                <div class="text-center">
+                    <img src="assets/images/photo-mathieu.jpeg" alt="Mathieu" class="rounded-circle img-fluid img-shadow" style="width: 150px; height: 150px;">
+                </div>
+                <p class="lead text-center mt-3">
                     Je m'appelle Mathieu, j'ai 21 ans et je suis né le 10 avril 2003.
                 </p>
                 <hr class="my-4">
@@ -29,25 +34,28 @@
         </section>
 
         <!-- Section Cartes -->
-        <section id="cards" class="mb-5">
-            <div class="row mb-4">
-                <div class="col-md-10 offset-md-1 d-flex justify-content-start">
-                    <div class="card shadow-sm card-custom mb-5">
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
+        <section id="cards" class="mb-5 fade-in-on-scroll">
+            <!-- Première carte -->
+            <div class="row mb-4 fade-in-on-scroll">
+                <div class="col-md-10 offset-md-1 d-flex justify-content-start fade-in-on-scroll">
+                    <div class="card shadow-sm card-custom mb-5 fade-in-on-scroll">
+                        <div class="card-body d-flex justify-content-between align-items-center fade-in-on-scroll">
+                            <div class="mr-4">
                                 <h3 class="card-title">Projets</h3>
                                 <p class="card-text">Découvrez mes projets et voyez sur quoi j'ai travaillé.</p>
                             </div>
-                            <a href="projects.html" class="btn btn-primary">Voir les projets</a>
+                            <a href="projects.html" class="btn btn-primary ml-4">Voir les projets</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row mb-4">
-                <div class="col-md-10 offset-md-1 d-flex justify-content-end">
-                    <div class="card shadow-sm card-custom mb-5">
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <a href="about.html" class="btn btn-primary">À propos</a>
+            <!-- Deuxième carte -->
+            <div class="row mb-4 fade-in-on-scroll">
+                <div class="col-md-10 offset-md-1 d-flex justify-content-end fade-in-on-scroll">
+                    <div class="card shadow-sm card-custom mb-5 fade-in-on-scroll">
+                        <div class="card-body d-flex justify-content-between align-items-center fade-in-on-scroll">
+                            <!-- Espace à droite de ce bouton -->
+                            <a href="about.html" class="btn btn-primary mr-4">À propos</a>
                             <div>
                                 <h3 class="card-title">À propos</h3>
                                 <p class="card-text">En savoir plus sur moi et mon parcours.</p>
@@ -56,16 +64,58 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-4">
-                <div class="col-md-10 offset-md-1 d-flex justify-content-start">
-                    <div class="card shadow-sm card-custom mb-5">
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
+            <!-- Troisième carte -->
+            <div class="row mb-4 fade-in-on-scroll">
+                <div class="col-md-10 offset-md-1 d-flex justify-content-start fade-in-on-scroll">
+                    <div class="card shadow-sm card-custom mb-5 fade-in-on-scroll">
+                        <div class="card-body d-flex justify-content-between align-items-center fade-in-on-scroll">
+                            <div class="mr-4">
                                 <h3 class="card-title">CV</h3>
                                 <p class="card-text">Consultez mon CV pour voir mes qualifications et mon expérience.</p>
                             </div>
-                            <a href="assets/pdf/cv-mathieu.pdf" target="_blank" class="btn btn-primary">Voir le CV</a>
+                            <a href="assets/pdf/cv-mathieu.pdf" target="_blank" class="btn btn-primary ml-4">Voir le CV</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Icônes -->
+        <section id="skills" class="mb-5 fade-in-on-scroll">
+            <div class="container text-center fade-in-on-scroll">
+                <h2 class="mb-4">Compétences</h2>
+                <div class="row justify-content-center fade-in-on-scroll">
+                    <div class="col-md-2 fade-in-on-scroll">
+                        <i class="fab fa-html5 fa-3x"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="col-md-2 fade-in-on-scroll">
+                        <i class="fab fa-css3-alt fa-3x"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="col-md-2 fade-in-on-scroll">
+                        <i class="fab fa-php fa-3x"></i>
+                        <p>PHP</p>
+                    </div>
+                    <div class="col-md-2 fade-in-on-scroll">
+                        <i class="fab fa-java fa-3x"></i>
+                        <p>Java</p>
+                    </div>
+                    <div class="col-md-2 fade-in-on-scroll">
+                        <i class="fab fa-js fa-3x"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="col-md-2 fade-in-on-scroll">
+                        <i class="fab fa-symfony fa-3x"></i>
+                        <p>Symfony</p>
+                    </div>
+                    <div class="col-md-2 fade-in-on-scroll">
+                        <i class="fas fa-cake fa-3x"></i>
+                        <p>CakePHP</p>
+                    </div>
+                    <div class="col-md-2 fade-in-on-scroll">
+                        <i class="fas fa-code fa-3x"></i>
+                        <p>Twig</p>
                     </div>
                 </div>
             </div>
